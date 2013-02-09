@@ -52,7 +52,7 @@ $(function() {
 	
 	$('.choice_format').click(function() {
 		options.format = this.id;
-		var downloadURL = "http://statetable.com/file?1";
+		var downloadURL = "/file?1";
 		if(options.country !== undefined) {
 			downloadURL += "&country=" + options.country;
 		}

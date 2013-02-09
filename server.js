@@ -48,7 +48,6 @@ app.get('/file', function(request, response, next) {
 	response.setHeader("Content-Type: application/download");
 	response.setHeader("Content-Transfer-Encoding", "binary");
 
-
 	sourceFile.on('record', function(row, index) {
 
 		var header_index;
@@ -95,8 +94,8 @@ app.get('/file', function(request, response, next) {
 	sourceFile.on('end', function(count) {
 		formatter.footer();
 		response.setHeader("Content-Disposition", "attachment; filename=" + formatter.filename + ";");
-		response.setHeader("Content-Length", formatter.length());
-		response.send(formatter.render());
+		response.setHeader("Content-Length", formatter.output_buffer.length());
+		response.send(formatter.output_buffer.render());
 		response.end();
 	});
 
