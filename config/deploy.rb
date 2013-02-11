@@ -8,7 +8,7 @@ require 'mina/git'
 # repository - Git repo to clone from (needed by mina/git)
 # user       - Username in the  server to SSH to (optional)
  
-set :domain, 'statetable_com'
+set :domain, 'statetable.com'
 set :deploy_to, '/var/www/statetable_com'
 set :repository, 'git@ross.no-ip.org:statetable_com'
 set :user, 'deploy'
