@@ -1,4 +1,4 @@
-re 'mina/bundler'
+require 'mina/bundler'
 require 'mina/rails'
 require 'mina/git'
  
@@ -12,6 +12,7 @@ set :domain, 'statetable.com'
 set :deploy_to, '/var/www/statetable_com'
 set :repository, 'git@ross.no-ip.org:statetable_com'
 set :user, 'deploy'
+set :shared_paths, ['logs/statetable.log']
 # set :port, '30000'
  
 desc "Deploys the current version to the server."
