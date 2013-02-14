@@ -1,3 +1,16 @@
 .sass-cache
 logs/statetable.log
 compass_app_log.txt
+lib-cov
+*.seed
+*.log
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
+
+npm-debug.log
