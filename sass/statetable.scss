@@ -2,6 +2,7 @@
 @import "compass/typography/vertical_rhythm";
 @import "compass/css3/box-shadow";
 @import "compass/css3/text-shadow";
+@import "compass/css3/border-radius";
 
 $base-font-size: 12px;
 $base-line-height: 18px;
@@ -78,6 +79,30 @@ body {
 	padding: 0;
 	color: $black;
 	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+a.button {
+	@include serif;
+	font-size: 80%;
+	font-weight: 300;
+	text-rendering: optimizeLegibility;
+
+	color: #aaa;
+	padding: .5em .5em;
+	background: #333333;
+	
+	@include border-radius(1em);
+	border: 3px solid #000000;
+	
+	text-decoration: none;
+	transition: color .5s ease-in;
+	-webkit-transition: color .5s ease-in;
+	-moz-transition: color .5s ease-in;
+	-o-transition: color .5s ease-in;
+
+	&:hover {
+		color: #cce;
+	}
 }
 
 header {

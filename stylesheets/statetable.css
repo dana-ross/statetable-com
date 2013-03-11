@@ -1,4 +1,4 @@
-/* line 17, ../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,58 +20,58 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
 /* Grid */
-/* line 19, ../sass/statetable.scss */
+/* line 20, ../sass/statetable.scss */
 .row {
   width: 960px;
   margin: 0 auto;
   overflow: hidden;
 }
 
-/* line 25, ../sass/statetable.scss */
+/* line 26, ../sass/statetable.scss */
 .column {
   overflow: hidden;
   float: left;
@@ -95,29 +95,29 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-style: normal;
 }
 
-/* line 57, ../sass/statetable.scss */
+/* line 58, ../sass/statetable.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: OptimusPrincepsSemiBoldRg, "Trajan Pro", Trajan, "Times New Roman", serif;
   font-weight: normal;
   text-rendering: optimizeLegibility;
 }
 
-/* line 62, ../sass/statetable.scss */
+/* line 63, ../sass/statetable.scss */
 h1 {
   font-size: 300%;
 }
 
-/* line 66, ../sass/statetable.scss */
+/* line 67, ../sass/statetable.scss */
 h2 {
   font-size: 150%;
 }
 
-/* line 70, ../sass/statetable.scss */
+/* line 71, ../sass/statetable.scss */
 p, form {
   margin-top: 12px;
 }
 
-/* line 74, ../sass/statetable.scss */
+/* line 75, ../sass/statetable.scss */
 body {
   background: url(/images/paper_3.png) top left repeat;
   margin: 0;
@@ -125,17 +125,44 @@ body {
   color: #333333;
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
-/* line 61, ../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 61, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 body * html {
   font-size: 75%;
 }
-/* line 64, ../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 64, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 body html {
   font-size: 12px;
   line-height: 1.5em;
 }
 
-/* line 83, ../sass/statetable.scss */
+/* line 84, ../sass/statetable.scss */
+a.button {
+  font-family: OptimusPrincepsSemiBoldRg, "Trajan Pro", Trajan, "Times New Roman", serif;
+  font-weight: normal;
+  font-size: 80%;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+  color: #aaa;
+  padding: 0.5em 0.5em;
+  background: #333333;
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  -ms-border-radius: 1em;
+  -o-border-radius: 1em;
+  border-radius: 1em;
+  border: 3px solid black;
+  text-decoration: none;
+  transition: color 0.5s ease-in;
+  -webkit-transition: color 0.5s ease-in;
+  -moz-transition: color 0.5s ease-in;
+  -o-transition: color 0.5s ease-in;
+}
+/* line 103, ../sass/statetable.scss */
+a.button:hover {
+  color: #cce;
+}
+
+/* line 108, ../sass/statetable.scss */
 header {
   margin: 0;
   height: 96px;
@@ -144,46 +171,46 @@ header {
   -moz-box-shadow: 0 2px 5px #898989;
   box-shadow: 0 2px 5px #898989;
 }
-/* line 89, ../sass/statetable.scss */
+/* line 114, ../sass/statetable.scss */
 header #logo {
   margin-top: 12px;
   width: 475px;
 }
-/* line 94, ../sass/statetable.scss */
+/* line 119, ../sass/statetable.scss */
 header h1, header h2 {
   color: #999999;
   margin: 0;
 }
-/* line 99, ../sass/statetable.scss */
+/* line 124, ../sass/statetable.scss */
 header #google_ads {
   margin-top: 12px;
   float: right;
 }
 
-/* line 105, ../sass/statetable.scss */
+/* line 130, ../sass/statetable.scss */
 #intro {
   margin-top: 24px;
 }
-/* line 109, ../sass/statetable.scss */
+/* line 134, ../sass/statetable.scss */
 #intro p {
   font-family: OptimusPrincepsSemiBoldRg, "Trajan Pro", Trajan, "Times New Roman", serif;
   font-weight: normal;
   width: 600px;
   font-size: 150%;
 }
-/* line 115, ../sass/statetable.scss */
+/* line 140, ../sass/statetable.scss */
 #intro #download-options {
   background: url("/images/download_options.png") top left no-repeat;
   width: 158px;
   height: 98px;
   margin-left: 200px;
 }
-/* line 121, ../sass/statetable.scss */
+/* line 146, ../sass/statetable.scss */
 #intro #download-options ul {
   text-indent: -9999px;
 }
 
-/* line 127, ../sass/statetable.scss */
+/* line 152, ../sass/statetable.scss */
 #main {
   width: 960px;
   height: 327px;
@@ -191,19 +218,19 @@ header #google_ads {
   margin-top: 12px;
   border: 1px solid #b08b4e;
 }
-/* line 134, ../sass/statetable.scss */
+/* line 159, ../sass/statetable.scss */
 #main .container {
   margin: 24px 100px;
 }
-/* line 138, ../sass/statetable.scss */
+/* line 163, ../sass/statetable.scss */
 #main h2 {
   font-size: 300%;
 }
-/* line 142, ../sass/statetable.scss */
+/* line 167, ../sass/statetable.scss */
 #main h3 {
   font-size: 150%;
 }
-/* line 146, ../sass/statetable.scss */
+/* line 171, ../sass/statetable.scss */
 #main .question {
   background: transparent;
   margin: 0;
@@ -211,21 +238,21 @@ header #google_ads {
   width: 650px;
   padding-top: 12px;
 }
-/* line 157, ../sass/statetable.scss */
+/* line 182, ../sass/statetable.scss */
 #main .question li a {
   background: transparent url(/images/black_bullet.png) center left no-repeat;
   padding-left: 30px;
 }
-/* line 161, ../sass/statetable.scss */
+/* line 186, ../sass/statetable.scss */
 #main .question li a:hover {
   background: transparent url(/images/orange_bullet.png) center left no-repeat;
   color: #c04d00;
 }
-/* line 167, ../sass/statetable.scss */
+/* line 192, ../sass/statetable.scss */
 #main .question .quick_50:hover {
   color: #c04d00;
 }
-/* line 171, ../sass/statetable.scss */
+/* line 196, ../sass/statetable.scss */
 #main .question a {
   text-decoration: none;
   font-size: 125%;
@@ -234,35 +261,35 @@ header #google_ads {
   display: block;
   margin-top: 12px;
 }
-/* line 182, ../sass/statetable.scss */
+/* line 207, ../sass/statetable.scss */
 #main #thanks p {
   line-height: 1.5em;
 }
 
-/* line 188, ../sass/statetable.scss */
+/* line 213, ../sass/statetable.scss */
 footer {
   padding-top: 24px;
   padding-bottom: 24px;
 }
-/* line 193, ../sass/statetable.scss */
+/* line 218, ../sass/statetable.scss */
 footer h2 {
   font-size: 250%;
 }
-/* line 197, ../sass/statetable.scss */
+/* line 222, ../sass/statetable.scss */
 footer .column {
   width: 300px;
   margin-left: 20px;
 }
-/* line 201, ../sass/statetable.scss */
+/* line 226, ../sass/statetable.scss */
 footer .column:first-child {
   margin-left: 0;
 }
-/* line 205, ../sass/statetable.scss */
+/* line 230, ../sass/statetable.scss */
 footer .colophon {
   font-size: 75%;
   font-weight: bold;
 }
-/* line 210, ../sass/statetable.scss */
+/* line 235, ../sass/statetable.scss */
 footer #twitter-link {
   display: block;
   margin-top: 12px;
@@ -274,7 +301,7 @@ footer #twitter-link {
   height: 32px;
   padding-top: 9px;
 }
-/* line 222, ../sass/statetable.scss */
+/* line 247, ../sass/statetable.scss */
 footer p {
   line-height: 1.5em;
 }
