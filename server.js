@@ -92,11 +92,10 @@ app.get('/file', function(request, response, next) {
 	});
 
 	sourceFile.on('end', function(count) {
-		var response_text = formatter.output_buffer.render();
 		formatter.footer();
 		response.setHeader("Content-Disposition", "attachment; filename=" + formatter.filename + ";");
-		response.setHeader("Content-Length", response_text.length());
-		response.send(response_text);
+		response.setHeader("Content-Length", formatter.output_buffer.output.length());
+		response.send(formatter.output_buffer.render());
 		response.end();
 	});
 
