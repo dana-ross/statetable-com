@@ -56,7 +56,7 @@ id,name,abbreviation,country,type,sort,status,occupied,notes,fips_state,assoc_pr
 55,Guam,GU,USA,territory,20,current,occupied,,66,,IX,,,,,9
 56,Northern Mariana Islands,MP,USA,commonwealth ,20,current,occupied,,69,,IX,,,,,9
 57,Federated States of Micronesia,FM,USA,territory,20,historic,occupied,"Independent in 1986, administered by US",64,,IX,,,,,
-58,Marshall Islands,MH,USA,territory,20,historic,occupied,"Independent in 1986, in ""free association"" with the US",68,,IX,,,,,
+58,Marshall Islands,MH,USA,territory,20,historic,occupied,"Independent in 1986, in 'free association' with the US",68,,IX,,,,,
 59,Palau,PW,USA,territory,20,historic,occupied,"Independent in 1994, no longer administered by US",70,,IX,,,,,
 60,Alberta ,AB,Canada,province,30,current,occupied,,,,,,,,,
 61,British Columbia ,BC,Canada,province,30,current,occupied,,,,,,,,,
