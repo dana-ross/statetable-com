@@ -90,10 +90,10 @@ a.button {
 	color: #aaa;
 	padding: .5em .5em;
 	background: #333333;
-	
+
 	@include border-radius(1em);
 	border: 3px solid #000000;
-	
+
 	text-decoration: none;
 	transition: color .5s ease-in;
 	-webkit-transition: color .5s ease-in;
@@ -115,12 +115,12 @@ header {
 		margin-top: $base-font-size;
 		width: 475px;
 	}
-		
+
 	h1,h2 {
 		color: $silver;
 		margin: 0;
 	}
-	
+
 	#google_ads {
 		margin-top: $base-font-size;
 		float: right;
@@ -128,23 +128,23 @@ header {
 }
 
 #intro {
-	
+
 	margin-top: $base-font-size * 2;
-	
+
 	p {
 		@include serif;
 		width: 600px;
 		font-size: 150%;
 	}
-	
+
 	#download-options {
 		background: url('/images/download_options.png') top left no-repeat;
 		width: 158px;
 		height: 98px;
 		margin-left: 200px;
-		
+
 		ul {
-			text-indent: -9999px;	
+			text-indent: -9999px;
 		}
 	}
 }
@@ -152,31 +152,31 @@ header {
 #main {
 	width: 960px;
 	height: 327px;
-	background: url('/images/map_background_light.jpg') bottom left no-repeat;	
+	background: url('/images/map_background_light.jpg') bottom left no-repeat;
 	margin-top: $base-font-size;
 	border: 1px solid #b08b4e;
-	
+
 	.container {
-		margin: $base-font-size * 2 100px;	
+		margin: $base-font-size * 2 100px;
 	}
 
 	h2 {
 		font-size: 300%;
 	}
-	
+
 	h3 {
 		font-size: 150%;
 	}
-	
+
 	.question {
 		background: transparent;
 		margin: 0;
 		height: 327px;
 		width: 650px;
 		padding-top: $base-font-size;
-		
+
 		h2 {
-			
+
 		}
 
 		li a {
@@ -188,11 +188,11 @@ header {
 				color: $question-hover-color;
 			}
 		}
-		
+
 		.quick_50:hover {
 			color: $question-hover-color;
 		}
-		
+
 		a {
 			text-decoration: none;
 			font-size: 125%;
@@ -208,17 +208,21 @@ header {
         	line-height: 1.5em;
 	    }
 	}
+
+	.donate > * {
+		display: inline-block;
+	}
 }
 
 footer {
-	
+
 	padding-top: $base-font-size * 2;
 	padding-bottom: $base-font-size * 2;
-	
+
 	h2 {
 		font-size: 250%;
 	}
-	
+
 	.column {
 		width: 300px;
 		margin-left: 20px;
@@ -226,12 +230,12 @@ footer {
 	.column:first-child {
 		margin-left: 0;
 	}
-	
+
 	.colophon {
 		font-size: 75%;
-		font-weight: bold;	
+		font-weight: bold;
 	}
-	
+
 	#twitter-link {
 		display: block;
 		margin-top: $base-font-size;
@@ -243,7 +247,7 @@ footer {
 		height: 32px;
 		padding-top: $base-font-size * 0.75;
 	}
-	
+
 	p {
         line-height: 1.5em;
     }
