@@ -10,7 +10,7 @@ require 'mina/git'
  
 set :domain, 'statetable.com'
 set :deploy_to, '/var/www/statetable_com'
-set :repository, 'git@ross.no-ip.org:statetable_com'
+set :repository, 'https://github.com/daveross/statetable-com.git'
 set :user, 'deploy'
 set :shared_paths, ['logs/statetable.log']
 # set :port, '30000'
