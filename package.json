@@ -1,0 +1,26 @@
+{
+  "name": "statetable",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Source code of statetable.com",
+  "author": "Dave Ross <dave@davidmichaelross.com> (http://davidmichaelross.com)",
+  "contributors" : [
+    {
+      "name": "Dave Ross", 
+      "email": "dave@davidmichaelross.com",
+      "url": "http://davidmichaelross.com"    
+    }
+  ],
+  "license": "MIT",
+  "bugs": "https://github.com/daveross/statetable-com/issues",
+  "repository" : { 
+    "type" : "git",
+    "url" : "http://github.com/isaacs/npm.git"
+  },
+  "dependencies": {
+    "express": "latest",
+    "ejs":     "latest",
+    "csv":     "latest"
+  }
+}
+
