@@ -14,7 +14,7 @@ id,name,abbreviation,country,type,sort,status,occupied,notes,fips_state,assoc_pr
 13,Illinois,IL,USA,state,10,current,occupied,,17,Ill.,V,2,Midwest,3,East North Central,7
 14,Indiana,IN,USA,state,10,current,occupied,,18,Ind.,V,2,Midwest,3,East North Central,7
 15,Iowa,IA,USA,state,10,current,occupied,,19,Iowa,VII,2,Midwest,4,West North Central,8
-16,Kansas,KS,USA,state,10,current,occupied,,20,Kan.,VII,3,South,4,West North Central,10
+16,Kansas,KS,USA,state,10,current,occupied,,20,Kan.,VII,2,Midwest,4,West North Central,10
 17,Kentucky,KY,USA,state,10,current,occupied,,21,Ky.,IV,3,South,6,East South Central,6
 18,Louisiana,LA,USA,state,10,current,occupied,,22,La.,VI,3,South,7,West South Central,5
 19,Maine,ME,USA,state,10,current,occupied,,23,Maine,I,1,Northeast,1,New England,1
@@ -31,10 +31,10 @@ id,name,abbreviation,country,type,sort,status,occupied,notes,fips_state,assoc_pr
 30,New Jersey,NJ,USA,state,10,current,occupied,,34,N.J.,II,1,Northeast,2,Mid-Atlantic,3
 31,New Mexico,NM,USA,state,10,current,occupied,,35,N.M.,VI,4,West,8,Mountain,10
 32,New York,NY,USA,state,10,current,occupied,,36,N.Y.,II,1,Northeast,2,Mid-Atlantic,2
-33,North Carolina,NC,USA,state,10,current,occupied,,37,N.C.,IV,4,West,5,South Atlantic,4
+33,North Carolina,NC,USA,state,10,current,occupied,,37,N.C.,IV,3,South,5,South Atlantic,4
 34,North Dakota,ND,USA,state,10,current,occupied,,38,N.D.,VIII,2,Midwest,4,West North Central,8
 35,Ohio,OH,USA,state,10,current,occupied,,39,Ohio,V,2,Midwest,3,East North Central,6
-36,Oklahoma,OK,USA,state,10,current,occupied,,40,Okla.,VI,4,West,7,West South Central,10
+36,Oklahoma,OK,USA,state,10,current,occupied,,40,Okla.,VI,3,South,7,West South Central,10
 37,Oregon,OR,USA,state,10,current,occupied,,41,Ore.,X,4,West,9,Pacific,9
 38,Pennsylvania,PA,USA,state,10,current,occupied,,42,Pa.,III,1,Northeast,2,Mid-Atlantic,3
 39,Rhode Island,RI,USA,state,10,current,occupied,,44,R.I.,I,1,Northeast,1,New England,1
