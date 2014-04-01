@@ -100,4 +100,4 @@ app.get('/file', function(request, response, next) {
 
 });
 
-app.listen(8100);
+app.listen(process.env.PORT || 8100);
