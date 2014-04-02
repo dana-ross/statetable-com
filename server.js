@@ -14,6 +14,7 @@ app.use(express.errorHandler({ dumpExceptions:false, showStack:false }));
 app.use("/js", express.static(__dirname + '/js'));
 app.use("/stylesheets", express.static(__dirname + '/stylesheets'));
 app.use("/images", express.static(__dirname + '/images'));
+app.use("/fonts", express.static(__dirname + '/fonts'));
 
 app.get('/', function(request, response) {
 	response.render('index');
