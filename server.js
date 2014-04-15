@@ -1,14 +1,17 @@
 var http = require('http');
 var express = require('express');
+var errorhandler = require('errorhandler');
 var fs = require('fs');
 var csv = require('csv');
 var StateTableFormatter = require('StateTableFormatter');
 
 // Express
 var app = express();
+// app.use(require('errorhandler')());
+
 app.set('views', __dirname);
 app.set('view engine', 'ejs');
-app.use(express.errorHandler({ dumpExceptions:false, showStack:false }));
+app.use(errorhandler({ dumpExceptions:false, showStack:false }));
 
 // Static resource passthrough
 app.use("/js", express.static(__dirname + '/js'));
