@@ -48,8 +48,8 @@ app.get('/file', function(request, response, next) {
 	response.setHeader("Expires", "0");
 	response.setHeader("Cache-Control", "must-revalidate, post-check=0, pre-check=0");
 	response.setHeader("Content-Type", "application/force-download");
-	response.setHeader("Content-Type: application/octet-stream");
-	response.setHeader("Content-Type: application/download");
+	response.setHeader("Content-Type", "application/octet-stream");
+	response.setHeader("Content-Type", "application/download");
 	response.setHeader("Content-Transfer-Encoding", "binary");
 
 	sourceFile.on('record', function(row, index) {
