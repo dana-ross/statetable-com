@@ -68,7 +68,7 @@ app.get('/file', function(request, response, next) {
 			// Normal row
 			var assocRow = [];
 			for(header_index in headers) {
-				assocRow[headers[header_index]] = row[header_index];
+				assocRow[headers[header_index]] = row[header_index].trim();
 			}
 
 			if(country !== 'all' && country !== assocRow['country'].toLowerCase()) {
