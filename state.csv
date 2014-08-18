@@ -50,27 +50,27 @@ id,name,abbreviation,country,type,sort,status,occupied,notes,fips_state,assoc_pr
 49,Wisconsin,WI,USA,state,10,current,occupied,,55,Wis.,V,2,Midwest,3,East North Central,7
 50,Wyoming,WY,USA,state,10,current,occupied,,56,Wyo.,VIII,4,West,8,Mountain,10
 51,Washington DC,DC,USA,capitol,10,current,occupied,,11,,III,3,South,5,South Atlantic,D.C.
-52,Puerto Rico,PR,USA,commonwealth ,20,current,occupied,,72,,II,,,,,1
+52,Puerto Rico,PR,USA,commonwealth,20,current,occupied,,72,,II,,,,,1
 53,U.S. Virgin Islands,VI,USA,territory,20,current,occupied,,78,,II,,,,,3
 54,American Samoa,AS,USA,territory,20,current,occupied,,60,,IX,,,,,
 55,Guam,GU,USA,territory,20,current,occupied,,66,,IX,,,,,9
-56,Northern Mariana Islands,MP,USA,commonwealth ,20,current,occupied,,69,,IX,,,,,9
+56,Northern Mariana Islands,MP,USA,commonwealth,20,current,occupied,,69,,IX,,,,,9
 57,Federated States of Micronesia,FM,USA,territory,20,historic,occupied,"Independent in 1986, administered by US",64,,IX,,,,,
 58,Marshall Islands,MH,USA,territory,20,historic,occupied,"Independent in 1986, in 'free association' with the US",68,,IX,,,,,
 59,Palau,PW,USA,territory,20,historic,occupied,"Independent in 1994, no longer administered by US",70,,IX,,,,,
-60,Alberta ,AB,Canada,province,30,current,occupied,,,,,,,,,
-61,British Columbia ,BC,Canada,province,30,current,occupied,,,,,,,,,
-62,Manitoba ,MB,Canada,province,30,current,occupied,,,,,,,,,
-63,New Brunswick ,NB,Canada,province,30,current,occupied,,,,,,,,,
-64,Newfoundland and Labrador ,NL,Canada,province,30,current,occupied,,,,,,,,,
-65,Nova Scotia ,NS,Canada,province,30,current,occupied,,,,,,,,,
-66,Ontario ,ON,Canada,province,30,current,occupied,,,,,,,,,
-67,Prince Edward Island ,PE,Canada,province,30,current,occupied,,,,,,,,,
-68,Quebec ,QC,Canada,province,30,current,occupied,,,,,,,,,
-69,Saskatchewan ,SK,Canada,province,30,current,occupied,,,,,,,,,
-70,Northwest Territories ,NT,Canada,territory,40,current,occupied,,,,,,,,,
-71,Nunavut ,NU,Canada,territory,40,current,occupied,,,,,,,,,
-72,Yukon Territory ,YT,Canada,territory,40,current,occupied,,,,,,,,,
+60,Alberta,AB,Canada,province,30,current,occupied,,,,,,,,,
+61,British Columbia,BC,Canada,province,30,current,occupied,,,,,,,,,
+62,Manitoba,MB,Canada,province,30,current,occupied,,,,,,,,,
+63,New Brunswick,NB,Canada,province,30,current,occupied,,,,,,,,,
+64,Newfoundland and Labrador,NL,Canada,province,30,current,occupied,,,,,,,,,
+65,Nova Scotia,NS,Canada,province,30,current,occupied,,,,,,,,,
+66,Ontario,ON,Canada,province,30,current,occupied,,,,,,,,,
+67,Prince Edward Island,PE,Canada,province,30,current,occupied,,,,,,,,,
+68,Quebec,QC,Canada,province,30,current,occupied,,,,,,,,,
+69,Saskatchewan,SK,Canada,province,30,current,occupied,,,,,,,,,
+70,Northwest Territories,NT,Canada,territory,40,current,occupied,,,,,,,,,
+71,Nunavut,NU,Canada,territory,40,current,occupied,,,,,,,,,
+72,Yukon Territory,YT,Canada,territory,40,current,occupied,,,,,,,,,
 73,Baker Island,,USA,minor,50,current,unoccupied,Part of “US Minor Outlying Islands”,81,,,,,,,
 74,Howland Island,,USA,minor,51,current,unoccupied,Part of “US Minor Outlying Islands”,84,,,,,,,
 75,Jarvis Island,,USA,minor,52,current,unoccupied,Part of “US Minor Outlying Islands”,86,,,,,,,
