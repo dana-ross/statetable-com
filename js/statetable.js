@@ -58,6 +58,10 @@ $(function() {
 	});
 	
 	$('.choice_format').click(function() {
+
+		// Only show military donate links if military option was chosen
+		$('#donate_military').hide();
+
 		options.format = this.id;
 		var downloadURL = "/file?1";
 		if(options.country !== undefined) {
@@ -71,6 +75,9 @@ $(function() {
 		}
 		if(options.military !== undefined) {
 			downloadURL += "&military=" + options.military;
+			if('true' === options.military) {
+				$('#donate_military').show();
+			}
 		}
 		if(options.time !== undefined) {
 			downloadURL += "&time=" + options.time;
