@@ -13,12 +13,18 @@ module.exports = function(grunt) {
 			}
 		},
 		sass: {
-			options: {
-				style: 'compressed',
-				compass: true
-			},
-			files  : {
-				'stylesheets/statetable.css': ['sass/statetable.scss']
+			default: {
+				options: {
+					style  : 'compressed',
+					compass: true
+				},
+				files  : [{
+					expand: true,
+					cwd   : 'sass',
+					src   : ['*.scss'],
+					dest  : 'stylesheets',
+					ext   : '.css'
+				}]
 			}
 		}
 	});
