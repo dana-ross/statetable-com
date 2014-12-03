@@ -25,6 +25,12 @@ $(function() {
 	
 	$('.choice_dc').click(function() {
 		options.dc = this.id;
+		$('#military').ScrollTo();
+		return false;
+	});
+
+	$('.choice_military').click(function() {
+		options.military = this.id;
 		$('#time').ScrollTo();
 		return false;
 	});
@@ -47,10 +53,12 @@ $(function() {
 		options.dc = 'false';
 		options.time = 'current';
 		options.occupied = 'occupied';
+		options.military = 'false';
 		$('#format').ScrollTo();
 	});
 	
 	$('.choice_format').click(function() {
+
 		options.format = this.id;
 		var downloadURL = "/file?1";
 		if(options.country !== undefined) {
@@ -61,6 +69,9 @@ $(function() {
 		}
 		if(options.dc !== undefined) {
 			downloadURL += "&dc=" + options.dc;
+		}
+		if(options.military !== undefined) {
+			downloadURL += "&military=" + options.military;
 		}
 		if(options.time !== undefined) {
 			downloadURL += "&time=" + options.time;
