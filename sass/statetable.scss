@@ -109,7 +109,7 @@ header {
 	margin: 0;
 	height: $base-font-size * 8;
 	background: url(/images/dark_leather.png) top left repeat;
-	@include single-box-shadow(#898989, 0, 2px, 5px);
+	@include single-box-shadow(0, 2px, 5px, 0, #898989);
 
 	#logo {
 		margin-top: $base-font-size;
