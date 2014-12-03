@@ -4,24 +4,29 @@
   "version": "1.0.0",
   "description": "Source code of statetable.com",
   "author": "Dave Ross <dave@davidmichaelross.com> (http://davidmichaelross.com)",
-  "contributors" : [
+  "contributors": [
     {
-      "name": "Dave Ross", 
+      "name": "Dave Ross",
       "email": "dave@davidmichaelross.com",
-      "url": "http://davidmichaelross.com"    
+      "url": "http://davidmichaelross.com"
     }
   ],
   "license": "MIT",
   "bugs": "https://github.com/daveross/statetable-com/issues",
-  "repository" : { 
-    "type" : "git",
-    "url" : "http://github.com/isaacs/npm.git"
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/isaacs/npm.git"
   },
   "dependencies": {
     "express": "latest",
-    "ejs":     "latest",
-    "csv":     "~0.2.0",
+    "ejs": "latest",
+    "csv": "~0.2.0",
     "errorhandler": "latest"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-contrib-uglify": "^0.6.0"
   }
 }
-
