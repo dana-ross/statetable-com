@@ -82,3 +82,6 @@ id,name,abbreviation,country,type,sort,status,occupied,notes,fips_state,assoc_pr
 81,Navassa Island,,USA,minor,58,current,unoccupied,Part of “US Minor Outlying Islands”. Claimed by Haiti.,76,,,,,,,
 82,Serranilla Bank,,USA,minor,59,current,occupied,"Lighthouse is inhabited, but occupants are unknown",,,,,,,,
 83,Bajo Nuevo Bank,,USA,minor,60,current,unoccupied,Disputed with Colombia.  Lighthouse possibly occupied.,,,,,,,,
+84,Armed Forces Americas,AA,USA,military,15,current,occupied,Serves all of the Americas except for Canada.,,,,,,,,
+85,Armed Forces Europe,AE,USA,military,15,current,occupied,"Serves Europe, Canada, Africa and the Middle East",,,,,,,,
+86,Armed Forces Pacific,AP,USA,military,15,current,occupied,Serves Asia and the Pacific,,,,,,,,

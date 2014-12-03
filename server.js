@@ -31,6 +31,7 @@ app.get('/file', function(request, response, next) {
 	var format = (request.query.format || '').toLowerCase();
 	var division = (request.query.division || '').toLowerCase();
 	var dc = ((request.query.dc || '').toLowerCase() === 'true');
+	var military = ((request.query.military || '').toLowerCase() === 'true');
 
 	var sourceFile = csv().from.stream(fs.createReadStream(__dirname + '/state.csv'));
 	var headers, formatter;
@@ -83,11 +84,15 @@ app.get('/file', function(request, response, next) {
 				return;
 			}
 
-			if(division !== 'all' && assocRow['type'].toLowerCase() !== 'state' && assocRow['type'].toLowerCase() !== 'province' && assocRow['type'].toLowerCase() !== 'capitol' ) {
+			if(division !== 'all' && assocRow['type'].toLowerCase() !== 'state' && assocRow['type'].toLowerCase() !== 'province' && assocRow['type'].toLowerCase() !== 'capitol' && assocRow['type'].toLowerCase() !== 'military' ) {
 				return;
 			}
 
 			if(!dc && assocRow['type'].toLowerCase() === 'capitol') {
+				return;
+			}
+
+			if(!military && assocRow['type'].toLowerCase() === 'military') {
 				return;
 			}
 
