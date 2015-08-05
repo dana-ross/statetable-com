@@ -3,7 +3,7 @@ var express = require('express');
 var errorhandler = require('errorhandler');
 var fs = require('fs');
 var csv = require('csv');
-var StateTableFormatter = require('StateTableFormatter');
+var StateTableFormatter = require('./StateTableFormatter');
 
 // Express
 var app = express();
