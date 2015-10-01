@@ -34,7 +34,7 @@ module.exports = function(grunt) {
                                 repositoryUrl: 'https://github.com/daveross/statetable-com.git',
                                 ignores: ['.git', 'node_modules'],
                                 keepReleases: 2,
-                                key: '/Users/dave/.ssh/id_rsa',
+                                key: '/Users/dave-work/.ssh/id_rsa',
                                 shallowClone: true
                         },
                         // grunt shipit:production deploy
@@ -64,7 +64,7 @@ module.exports = function(grunt) {
         grunt.registerTask('update-node-components', function() {
                 var     done              = this.async();
 
-                grunt.shipit.remote(['cd', grunt.shipit.releasePath, '&&', 'npm install --allow-root'].join(' ')).then(done);
+                grunt.shipit.remote(['cd', grunt.shipit.releasePath, '&&', 'npm install --allow-root', '&&', 'service statetable.com restart'].join(' ')).then(done);
         });
 
 
