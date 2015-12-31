@@ -25,7 +25,7 @@ id,name,abbreviation,country,type,sort,status,occupied,notes,fips_state,assoc_pr
 24,Mississippi,MS,USA,state,10,current,occupied,,28,Miss.,IV,3,South,6,East South Central,5
 25,Missouri,MO,USA,state,10,current,occupied,,29,Mo.,VII,2,Midwest,4,West North Central,8
 26,Montana,MT,USA,state,10,current,occupied,,30,Mont.,VIII,4,West,8,Mountain,9
-27,Nebraska,NE,USA,state,10,current,occupied,,31,Nebr.,VII,2,Midwest,4,West North Central,8
+27,Nebraska,NE,USA,state,10,current,occupied,,31,Neb.,VII,2,Midwest,4,West North Central,8
 28,Nevada,NV,USA,state,10,current,occupied,,32,Nev.,IX,4,West,8,Mountain,9
 29,New Hampshire,NH,USA,state,10,current,occupied,,33,N.H.,I,1,Northeast,1,New England,1
 30,New Jersey,NJ,USA,state,10,current,occupied,,34,N.J.,II,1,Northeast,2,Mid-Atlantic,3
